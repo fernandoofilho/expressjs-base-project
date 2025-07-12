@@ -1,0 +1,32 @@
+{
+  "name": "expressjs-base-project",
+  "version": "1.0.0",
+  "description": "This project serves as a starting point for building web applications and APIs with Express.js. It features an organized structure, initial setup, and pre-configured routing to simplify development and ensure scalability.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandoofilho/expressjs-base-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fernandoofilho/expressjs-base-project/issues"
+  },
+  "homepage": "https://github.com/fernandoofilho/expressjs-base-project#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.13",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
